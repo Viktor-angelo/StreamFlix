@@ -4,8 +4,8 @@ This project simulates a real streaming platform where users can browse movies a
 
 # Preview
 <p align="center">
-  <img src="./IMAGE/Preview-dasktop.png" width="600">
-  <img src="./IMAGE/Preview-mobile.png" width="250">
+  <img src="./IMG/Preview-desktop.png" width="600">
+  <img src="./IMG/Preview-mobile.png" width="250">
 
 </p>
 
