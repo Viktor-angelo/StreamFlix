@@ -21,7 +21,8 @@ CSS3
 JavaScript (Vanilla JS)
 
 
- What I Learned
+# What I Learned
+ 
 DOM manipulation with JavaScript
 Dynamic content rendering
 Event handling
