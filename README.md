@@ -40,4 +40,5 @@ Structuring front-end projects
 This project represents a step forward in my journey to becoming a Full Stack Developer, focusing on building real-world applications with clean structure and interactive features.
 
  Author
+ 
 Developed by Viktor Angelo
