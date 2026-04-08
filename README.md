@@ -9,7 +9,7 @@ This project simulates a real streaming platform where users can browse movies a
 
 </p>
 
- Features
+ # Features
  Dynamic movie rendering using JavaScript
  Click-based interaction to display movie details
  Data persistence using LocalStorage
@@ -19,6 +19,7 @@ This project simulates a real streaming platform where users can browse movies a
 HTML5
 CSS3
 JavaScript (Vanilla JS)
+
 
  What I Learned
 DOM manipulation with JavaScript
@@ -31,10 +32,11 @@ Structuring front-end projects
  Search and filter movies
  Favorite system
  Integration with movie APIs
- Author
- 
-Developed by Viktor Angelo
+
 
 ⭐ Final Note
 
 This project represents a step forward in my journey to becoming a Full Stack Developer, focusing on building real-world applications with clean structure and interactive features.
+
+ Author
+Developed by Viktor Angelo
