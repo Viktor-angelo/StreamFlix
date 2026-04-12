@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section id="container">
+        <form onsubmit="event.preventDefault()" >
+    <h1>To-Do-List</h1>
+    <label for="">add your task here</label>
+    <input id="enter"
+    type="text"
+    value=""
+    placeholder="Add a task"
+    />
+
+    <button type="button" onclick="saveD()">+</button>
+
+    <span id="erroEditar2" class="erro">This field is required!</span>
+    
+
+    <br>
+    <div id="final"></div>
+    <label for="">My Tasks</label>
+    <img src="https://img.freepik.com/vetores-premium/gato-dormindo-no-laptop-com-ilustracao-de-cacto-e-maca_138676-135.jpg?w=1380" id="loading" alt="">
+    <div id="edit" style="display: none;"></div>
+     <div>
+    <ul id="result"></ul>
+    </div>
+</div>
+</form>
+</section>
+   
+
+
+</body>
+</html>

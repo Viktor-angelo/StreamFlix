@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+  background: radial-gradient(
+    circle at top,
+    #0f0f0f 0%,
+    #050505 60%,
+    #000000 100%
+);
+}
+h1, h2, h3{
+    color: #333;
+}
+p{
+    color:#ffffff
+}
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    padding: 0 2rem;
+    position: absolute;
+    top: 0;
+    right:  5px;
+}
+nav{
+    top: 0;
+    right: 5px;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+}
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items a{
+    text-shadow: #0f0f0f;
+    color: #fff;
+    text-decoration: none;
+    transition:0.5s
+}
+.navbar-items a:hover{
+    color: #ccc;
+}
+.default-btn{
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #d4a017, #e6b800);
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.navbar-items .default-btn{
+    transform: scale(1.05);
+    background-color: #e6b800;
+    color: #fff;
+}
+.navbar-items .default-btn:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 15px #e6b800;
+
+
+}
+.main-banner{
+    background-image: url(https://images8.alphacoders.com/139/thumb-1920-1397454.jpg);
+    height: 95vh;
+    min-height: 200px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.main-banner h1,
+.main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+.main-banner h1{
+    font-size: 54px;
+}
+.main-banner p{
+    font-size: 32px;
+}
+.service-container{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 50px auto;
+}
+.service-container img{
+    width: 200px;
+}
+.service-container ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.service-container h2{
+    color: #e6b800;
+    font-family: geneva;
+    font-size: 62px;
+}
+.service-container li{
+    color: #fff;
+    max-width: 700px;
+    font-size: 20px;
+    margin-top: 230px;
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+.service-container .btn-default{
+     display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #d4a017, #b8860b);
+    margin-top: 2px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.service-container .btn-default:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(212, 160, 23, 0.6);
+}
+
+#main-poster{
+
+    width: 400px;
+}
+.movies{
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    padding-left: 20px;
+    overflow-x: auto;
+}
+.subtitle-movies{
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: cambria;
+    color: #fff;
+}
+.movies img{
+    
+    margin-bottom: 100px;
+    margin-top: 20px;
+    height: 330px;
+    width: auto;
+}
+/*responsividade*/
+@media (max-width:576px){
+    
+    
+    .navbar-items li{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .service-container{
+        margin: 15px;
+        max-width: 100%;
+        margin-bottom: 10px;
+        width: 100%;
+        
+    }
+    .service-container ul{
+        flex-direction: column;
+    }
+    .main-banner{
+          height: 80vh;
+        background-position: center right;
+    }
+    .service-container img{
+        display: flex;
+        justify-content: center;
+        width: 380px;
+    }
+    .service-container li{
+        display: flex;
+        margin-top: 8px;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    .movies img{
+        flex: 0 0 auto;
+        width: 200px;
+        height: auto;
+    }
+    .movies{
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+    
+    
+}
